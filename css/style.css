@@ -3,6 +3,24 @@
 	padding: 0;
 }
 
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
 .splash {
 	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
@@ -22,16 +40,8 @@
 	z-index: -1;
 }
   
-
 h1 {
 	font-size: 5em;
-}
-
-button {
-	border: none;
-	fill: none;
-	color: none;
-	background-color: white;
 }
 
 hr {
