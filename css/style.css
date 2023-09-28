@@ -113,7 +113,7 @@ hr.curly:after {
 		font-size: 5em;
 	}
 
-	.main_Content {
+	.main_Intro, .main_Tracks, .main_Playlist {
 		padding: 15vh 10vw 15vh;
 	}
 }
