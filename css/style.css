@@ -28,6 +28,11 @@
 	z-index: 100;
 }
 
+.livestream > a {
+	text-decoration: underline;
+	color: white;
+}
+
 #background-video {
 	width: 100vw;
 	height: 100vh;
@@ -110,10 +115,11 @@ hr.curly:after {
 /* Media Queries */
 @media (max-width: 750px) {
     h1 {
-		font-size: 5em;
+		font-size: 3em;
 	}
 
 	.main_Intro, .main_Tracks, .main_Playlist {
 		padding: 15vh 10vw 15vh;
 	}
+
 }
