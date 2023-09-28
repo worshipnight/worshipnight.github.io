@@ -67,10 +67,32 @@ hr.curly:after {
 	padding-bottom: 5vh;
 }
 
-.main_Content {
+/* .main_Intro {
+	padding: 15vh 30vw 15vh;
+	background-image: url(../img/bkg_3.jpg);
+	height: 100vh;
+}
+
+.main_Tracks {
+	padding: 15vh 30vw 15vh;
+	background-image: url(../img/bkg_2.jpg);
+	height: 100vh;
+}
+
+.main_Playlist {
+	padding: 15vh 30vw 15vh;
+	background-image: url(../img/bkg_5.jpg);
+	height: 100vh;
+} */
+
+.main_Intro, .main_Tracks, .main_Playlist {
 	padding: 15vh 30vw 15vh;
 	background-color: white;
 	height: 100vh;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .icons {
